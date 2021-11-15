@@ -77,7 +77,7 @@ function loadMedia() {
         }
 
         var mediaInfo = new
-chrome.cast.media.MediaInfo('http://i.imgur.com/IFD14.jpg');
+chrome.cast.media.MediaInfo('https://d3us6z9haan6vf.cloudfront.net/11-11-2021/t_b386d50d4a3042d0972a58af47d86cf5_name_file_1280x720_2000_v3_1_.jpg');
         mediaInfo.contentType = 'image/jpg';
   
         var request = new chrome.cast.media.LoadRequest(mediaInfo);
